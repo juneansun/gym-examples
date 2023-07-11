@@ -1,4 +1,5 @@
-from gym.envs.registration import register
+import gymnasium as gym
+from gymnasium.envs.registration import register
 
 register(
     id="gym_examples/GridWorld-v0",
